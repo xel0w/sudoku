@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+input{
+    width: 50px;
+    height: 50px;
+    border:1px solid black;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#plateau{
+    height: 750px;
+    width: 750px;
+}
+.box{
+    height: 80px;
+    width: 80px;
+    float: left;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
