@@ -43,8 +43,15 @@ function isSquareOk(value, rowNumber, columnNumber, sudoku) {
     }
 };
 
+// function checkIfWon (sudoku) {
+//     if (sudoku[0].concat(sudoku[1]).concat(sudoku[2]).concat(sudoku[3]).concat(sudoku[4]).concat(sudoku[5]).concat(sudoku[6]).concat(sudoku[7]).concat(sudoku[8]).includes(0)) {
+//         console.log("keep up the good work");
+//     } else {
+//         alert("You Win");
+//     }
+// };
 function checkIfWon (sudoku) {
-    if (sudoku[0].concat(sudoku[1]).concat(sudoku[2]).concat(sudoku[3]).concat(sudoku[4]).concat(sudoku[5]).concat(sudoku[6]).concat(sudoku[7]).concat(sudoku[8]).includes(0)) {
+    if (sudoku[0].concat(sudoku[1],sudoku[2],sudoku[3],sudoku[4],sudoku[5],sudoku[6],sudoku[7],sudoku[8]).includes(0)) {
         console.log("keep up the good work");
     } else {
         alert("You Win");
